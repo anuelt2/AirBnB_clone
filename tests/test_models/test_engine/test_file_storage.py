@@ -35,9 +35,9 @@ class TestFileStorage(unittest.TestCase):
         obj = BaseModel()
         self.storage.new(obj)
         instances = self.storage.all()
-        for key in instances.keys():
-            cls_name = instances[key].__class__.__name__
-            self.assertEqual(cls_name, "BaseModel")
+        for key, instance in instances.items():
+            cls_name = instance.__class__.__name__
+            self.assertEqual(cls_name, obj.__class__.__name__)
 
     def test_new_adds_object(self):
         """Test that 'new' method adds an object to storage"""
