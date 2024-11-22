@@ -26,7 +26,7 @@ Each task is linked and will help to:
 ## Advanced Tasks
 9.
 
-### Project Details
+## Project Details
 - Language: HTML/CSS
 - Standard: W3C
 
