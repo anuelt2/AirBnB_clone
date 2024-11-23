@@ -27,7 +27,6 @@
 	height: 100%;
 	width: 25%;
 	display: inline-block;
-	padding: 0 50px;
 }
 .locations {
 	border-right: 1px solid #DDDDDD;
@@ -47,4 +46,5 @@
 .amenities h3,
 .amenities h4 {
 	color: #484848;
+	margin-left: 40px;
 }
