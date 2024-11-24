@@ -2,23 +2,22 @@
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
-	align-items: flex-start;
-	margin: 0;
+	align-items: stretch;
+	margin: 0 auto;
 	padding: 0;
+	justify-content: center;
 }
 .places h1 {
 	font-size: 30px;
-	top: 0;
-	left: 20px;
-	position: absolute;
-	margin: 0;
-	padding: 10px;
+	margin: 0 10px;
+	padding-top: 10px;
+	flex-basis: 100%;
+	text-align: left;
 }
 article {
 	width: 390px;
 	padding: 20px;
-	margin: 20px 10px;
+	margin: 20px;
 	border: 1px solid #FF5A5F;
 	border-radius: 4px;
 	text-align: left;
@@ -27,5 +26,6 @@ article {
 article h2 {
 	font-size: 30px;
 	text-align: center;
+	margin-top: 0;
 	margin-bottom: 10px;
 }
