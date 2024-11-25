@@ -30,7 +30,7 @@
 	color: #484848;
 	position: absolute;
 }
-.locations {
+.filters > div:nth-child(1) {
 	border-right: 1px solid #DDDDDD;
 }
 .amenities {
