@@ -1,5 +1,5 @@
 .filters {
-	color: white;
+	background-color: white;
 	height: 70px;
 	width: 100%;
 	border: 1px solid #DDDDDD;
@@ -28,12 +28,13 @@
 	width: 25%;
 	display: inline-block;
 	color: #484848;
+	position: absolute;
 }
 .locations {
 	border-right: 1px solid #DDDDDD;
 }
 .amenities {
-	margin-left: -5px;
+	left: 25%;
 }
 .locations h3,
 .amenities h3 {
