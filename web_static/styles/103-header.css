@@ -1,0 +1,26 @@
+header {
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	border-bottom: 1px solid #CCCCCC;
+	display: flex;
+	position: relative;
+	align-items: center;
+}
+.logo {
+	margin-left: 20px;
+	background-image: url('../images/logo.png');
+	background-size: auto;
+	background-position: left center;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100px;
+}
+
+@media only screen and (max-width: 960px) {
+	.logo {
+		width: 100px;
+		height: 50px;
+		background-size: contain;
+	}
+}
